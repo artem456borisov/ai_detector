@@ -33,7 +33,7 @@ def main(cfg: DictConfig) -> None:
 
     model_module = LightningClassifier()
 
-    trainer = L.Trainer(
+    trainer = L.Trainer( 
         logger=mlf_logger,
         # callbacks=[checkpoint_callback],
         max_epochs=10
