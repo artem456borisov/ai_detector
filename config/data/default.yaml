@@ -1,0 +1,4 @@
+train_data_dir: 'data/train_m4gt.pkl'
+val_data_dir: 'data/valid_m4gt.pkl'
+test_data_dir: 'data/test_m4gt.pkl'
+predict_data_dir: 'data/test_m4gt.pkl'

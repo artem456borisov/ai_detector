@@ -1,0 +1,5 @@
+outs:
+- md5: 62422b576799320ba3b7016db00b5654
+  size: 7226106
+  hash: md5
+  path: test_m4gt.pkl

@@ -142,3 +142,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Extra stuff
+mlflow.db
+mlops_project/mlcore/demo.csv
+mlops_project/mlcore/tests.ipynb

@@ -1,0 +1,14 @@
+defaults:
+- _self_
+- mlflow: default
+- trainer: default
+- model: basic_nn
+- data: default
+
+model:
+  num_parameters: 10
+
+mlflow:
+  tracking_url: "http://127.0.0.1:8080"
+
+random_state: 38
