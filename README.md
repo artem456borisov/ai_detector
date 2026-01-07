@@ -33,7 +33,7 @@ Main Model: AdamW optimizer, bigger hidden_dim.
 ## Deployment
 
 Training: 
-```poetry run python ./ai_detector/trainer.py train```
+```poetry run python ./ai_detector/ai_detector_app.py train```
 
 Inference: 
-```poetry run python ./ai_detector/trainer.py infer```
+```poetry run python ./ai_detector/ai_detector_app.py infer```
