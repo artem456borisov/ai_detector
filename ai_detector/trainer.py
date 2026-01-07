@@ -59,7 +59,11 @@ def infer(checkpoint_path: str | None = None, output_file: str | None = None):
     )
     with initialize(config_path="../config", version_base=None):
         cfg = compose(config_name="config", overrides=overrides)
-    model = LightningClassifier.load_from_checkpoint(cfg.checkpoint_path)
+    model = LightningClassifier.load_from_checkpoint(
+        cfg.checkpoint_path,
+        model_config=cfg.model,
+        training_config=cfg.trainer.optimization,
+    )
     model.eval()
 
     data_module = M4GTDataModule(**cfg.data)

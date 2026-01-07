@@ -6,4 +6,4 @@ defaults:
 - data: default
 
 random_state: 38
-checkpoint_path: 'checkpoint_path'
+checkpoint_path: './data/checkpoints/best-model-loss-valid_loss=0.23-epoch-epoch=49.ckpt'
